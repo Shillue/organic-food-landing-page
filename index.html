@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Landing page, Front-end">
+    <meta name="description" content="Landing page responsiva de alimentos orgânicos desenvolvida com HTML e CSS, inspirada em um layout visual de referência.">
+    <meta name="author" content="Shilluê">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+
+    <!-- Icones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/icon.png">
+
+    <title>Organic Food</title>
+  </head>
+  <body>
+    <header class="top__header" id="menu"> 
+      <a href="#" class="logo" rel="noopener noreferrer" title="ORGAMIC">
+        <img src="./assets/icons/logo.png" alt="Logo do ORGAMIC" />
+      </a>
+
+      <nav class="menu__main" aria-label="Menu Principal">
+        <ul class="itens">
+          <li><a class="item" href="#">Home</a></li>
+          <li><a class="item" href="#">Loja</a></li>
+          <li><a class="item" href="#">Sobre</a></li>
+          <li>
+            <a class="item" href="#">Conversar</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a
+        href="#"
+        class="perfil"
+        rel="noopener noreferrer"
+        aria-label="Perfil"
+        title="Perfil"
+      >
+        <img src="./assets/icons/perfil.png" alt="Ícon Perfil" />
+      </a>
+    </header>
+
+    <main class="container">
+      <section class="introduction">
+        <div class="introduction__content">
+          <h1>Healthy Organic Food</h1>
+          <p>
+            Nutra sua rotina com o melhor da terra. Oferecemos produtos 100%
+            orgânicos, sustentáveis e cheios de sabor para você.
+          </p>
+          <a href="#" class="introduction__btn" rel="noopener noreferrer"
+            >Our Products</a
+          >
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <h2 class="products__subtitulo" id="btnProducts">Our Products</h2>
+        <section class="lista__cards">
+          <ul>
+            <li class="card">
+              <div class="card__img">
+                <img src="./assets/images/tomate.jpeg" alt="Tomate cereja" />
+              </div>
+              <div class="card__description">
+                <p class="product">Tomate Cereja</p>
+                <p class="preco">R$ 5,30</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card__img">
+                <img src="./assets/images/produto2.jpeg" alt="Mel de Abelha" />
+              </div>
+              <div class="card__description">
+                <p class="product">Mel de Abelha</p>
+                <p class="preco">R$ 7,30</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card__img">
+                <img src="./assets/images/produto3.jpeg" alt="Brócolis" />
+              </div>
+              <div class="card__description">
+                <p class="product">Brócolis</p>
+                <p class="preco">R$ 5,30</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card__img">
+                <img
+                  src="./assets/images/produto4.jpeg"
+                  alt="Castanha de Cajú"
+                />
+              </div>
+              <div class="card__description">
+                <p class="product">Castanha de Cajú</p>
+                <p class="preco">R$ 5,30</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <section class="categorias" id="categorias">
+        <section class="categorias__card left">
+          <div class="categorias__img">
+            <img src="./assets/images/card1.png" alt="Abacate" />
+          </div>
+          <div class="categorias__description">
+            <h2>Vegetais Orgânicos</h2>
+            <a href="#" class="btn__Conferir">Conferir</a>
+          </div>
+        </section>
+        <section class="categorias__card right">
+          <div class="categorias__img">
+            <img src="./assets/images/card2.png" alt="Farinha" />
+          </div>
+          <div class="categorias__description">
+            <h2>Natural <br />& Saudável</h2>
+            <p>
+              A base de uma vida leve começa com escolhas conscientes e
+              ingredientes de verdade.
+            </p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <section class="rodape__main">
+        <div class="rodape__sobre">
+          <h3>Sobre nós</h3>
+          <p>
+            Na Organic, oferecemos alimentos orgânicos frescos e saudáveis,
+            cultivados com qualidade e respeito à natureza para levar mais
+            bem-estar ao seu dia a dia.
+          </p>
+        </div>
+        <div class="rodape__links">
+          <h3>Links rápidos</h3>
+          <nav class="rodape__menu">
+            <a href="#menu">Menu</a>
+            <a href="#products">Our Products</a>
+            <a href="#categorias">Categorias</a>
+          </nav>
+        </div>
+        <div class="rodape__siga">
+          <h3>Redes Sociais</h3>
+          <ul class="rodape__redes">
+            <li class="rodape__redes__itens">
+              <a
+                href="https://www.facebook.com/?locale=pt_BR" target="_blank"
+                class="icon__face"
+                rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="rodape__redes__itens">
+              <a href="https://www.instagram.com/" target="_blank" class="icon__inst" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li class="rodape__redes__itens">
+              <a href="https://x.com/?lang=pt" target="_blank" class="icon__twit" rel="noopener noreferrer">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="rodape__creditos">
+        <p>
+          Coded by
+          <a
+            href="https://www.linkedin.com/in/shillu%C3%AA/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Shilluê</a
+          >.
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
