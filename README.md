@@ -80,7 +80,7 @@ Design inspirado em layout encontrado no Pinterest (landing page de alimentos or
 
 ## 🔗 Links
 
-🔴 Projeto online: [Link]()
+🔴 Projeto online: [Link](https://shillue.github.io/organic-food-landing-page/)
 
 ## 📁 Estrutura do Projeto
 
