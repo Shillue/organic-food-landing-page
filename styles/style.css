@@ -310,7 +310,7 @@ main.container {
   letter-spacing: 1px;
 }
 
-.categorias__card .categorias__description .btn__Conferir {
+.categorias__card .categorias__description .btn__conferir {
   padding: 10px 40px;
   background-color: var(--cor-btn);
   border-radius: 10px;
@@ -319,7 +319,7 @@ main.container {
   transition: 0.3s ease;
 }
 
-.categorias__card .categorias__description .btn__Conferir:hover {
+.categorias__card .categorias__description .btn__conferir:hover {
   background-color: var(--cor-btn-hover);
 }
 
